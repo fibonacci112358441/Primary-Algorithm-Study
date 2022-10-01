@@ -1,2 +1,9 @@
 伪代码：Quicksort(a[n],q,r){
+         if(q<r){
+          int p=partition(a,q,r);
+          Quicksort(a[n],q,p-1);
+          Quicksort(a[n],p+1,r);
+         }
+        }
+    
 
