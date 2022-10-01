@@ -1,1 +1,2 @@
-伪代码：Quicksort()
+伪代码：Quicksort(a[n],q,r){
+
